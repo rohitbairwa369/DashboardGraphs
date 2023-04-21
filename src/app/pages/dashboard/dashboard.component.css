@@ -1,0 +1,145 @@
+
+
+  
+  .salesdashboard_head{
+    padding:10px 10px 10px 0px;
+    
+  }
+  
+  .salesdashboard_numchart{
+    width:95%;
+    border-radius:10px;
+    padding:10px;
+    border:1px solid #a2a2a2;
+    
+  }
+  
+  .salesdashboard_numchart_data{
+    width:100%;
+  }
+  
+  .total_revnew ,.total_customer, .total_profit{
+    width:200px;
+    height:100px;
+    border-radius:10px; 
+  }
+  
+  
+  .total_income{
+    width:200px;
+    height:100px;
+  }
+  
+
+  
+  .customertransaction{
+    width:95%;
+    border-radius:10px;
+    padding:10px;
+    border:1px solid #a2a2a2;
+  }
+  
+  
+  .right_dasboard{
+    width:26%;
+    height: 50%;
+    border:1px solid #a2a2a2;
+   
+  }
+
+  .right_dasboard_below{
+    width:26%;
+    height: 50%;
+    border:1px solid #a2a2a2;
+  }
+
+  .sales_head{
+    margin-left: 4px;
+    width:50vw;
+}
+
+
+.sales_head button{
+ border: none;
+ width:60px;
+ height: 48px;
+}
+
+
+.salescontainer{
+    
+    width:51vw;
+    height:auto;
+    border: 2.5px solid #d8d5d5;
+    border-radius: 15px;
+}
+
+.salescon{
+    height: auto;
+}
+
+  
+  .total_revnew{
+    width:220px;
+    height:100px;
+    border-radius:10px; 
+  }
+  
+  .calbtn{
+    border: none;
+    cursor: pointer;
+    border: 1px solid white;
+  }
+
+  .calbtn:hover{
+    border: 1px solid #c0c0c0;
+
+  }
+
+  .activecalbtn{
+    border: 1px solid #c0c0c0;
+  }
+  
+  .titletransaction{
+    width:100%;
+    height: 45px;
+    border-bottom: 2.5px solid #c0c0c0;
+  }
+
+.transactionContainer{
+    margin: auto;
+    width:51vw;
+    height:auto;
+    border: 2.5px solid #d8d5d5;
+    border-radius: 15px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.success-text {
+  color: green;
+  border: 1px solid green;
+  border-radius: 10px;
+  background-color: rgba(5, 239, 99, 0.08);
+  text-align: center;
+  padding-bottom: 2px;
+}
+
+.fail-text {
+  color: red;
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: rgba(239, 28, 5, 0.146);
+  text-align: center;
+  padding-bottom: 2px;
+}
+
+.on-process{
+  color: rgb(8, 176, 236);
+  border: 1px solid rgb(23, 189, 219);
+  border-radius: 10px;
+  background-color: rgba(5, 212, 239, 0.114);
+  text-align: center;
+  padding-bottom: 2px;
+}
+

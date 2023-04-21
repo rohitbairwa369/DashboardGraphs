@@ -1,0 +1,75 @@
+
+<div *ngIf="isLoading; else content"  class=" mt-5 flex justify-content-center w-17rem flex-column ml-3">
+
+    <p-skeleton height="4rem" styleClass="mb-3 w-17rem"></p-skeleton>
+    <p-skeleton height="37rem" styleClass="mb-5 w-17rem"></p-skeleton>
+
+  </div>
+
+  <ng-template #content>
+<div class="sidebar relative"> 
+  <div class="sidebar_logo">
+      <img src="../../../assets/icons8-money-bag-90.png" width="50px" alt="logo">
+      <p>Finsally.</p>
+  </div>
+  <br>
+ <div class="main_menu"><span>MAIN MENU</span></div>
+  <div class="sidebar_menu">
+     <div class="dashboard ml-3 px-4 "><span class="material-symbols-outlined ">
+      grid_view</span>Dashboard <i (click)="toggle()" class="fa-solid fa-chevron-down ml-4 circle-grayh" style="color: #828282;"></i>
+  </div>
+  <div class="dropdasboard " *ngIf="hidden">
+      <div class="dashboard ml-3 px-2 text-align-center menudash "><span class="material-symbols-outlined">
+          shopping_bag
+          </span>Products 
+      </div>
+      <div class="dashboard ml-3 px-2 text-align-center  menudash "><span class="material-symbols-outlined">
+          inventory_2
+          </span>Sales 
+      </div>
+      <div class="dashboard ml-3 px-2 text-align-center menudash "><span class="material-symbols-outlined">
+          account_balance
+          </span>Banking 
+      </div>
+  </div>   
+  <div class="dashboard ml-3 px-2 text-align-center  menudash"><span class="material-symbols-outlined">
+      calendar_month
+      </span>Calendar
+  </div>
+  <div class="dashboard ml-3 px-1 text-align-center  menudash"><span class="material-symbols-outlined">
+      monitoring
+      </span>Statistics
+  </div>
+  <div class="dashboard ml-3 px-1 text-align-center menudash"><span class="material-symbols-outlined">
+      contact_support
+      </span>Messages
+  </div>
+  <div class="dashboard ml-3 px-2 text-align-center menudash"><span class="material-symbols-outlined">
+      credit_card
+      </span>Card
+  </div>
+ 
+  </div>
+  <div class="sidebar_account">
+      <div class="account_menu"><span>ACCOUNT</span></div>
+      <br>
+      <div class="dashboard ml-3  menudash"><span class="material-symbols-outlined">
+          help
+          </span>Help
+      </div>
+      <div class="dashboard ml-3  menudash"><span class="material-symbols-outlined">
+          settings
+          </span>Settings
+      </div>
+  </div>
+
+  <div class="switch_profile  flex justify-content-between">
+      <div class="switch_image">
+
+      </div>
+      <span class="mt-2"><b> Kamandanu</b> <br>Manager</span>
+      <i class="fa-solid fa-chevron-down ml-4 mt-2 circle-grayh" style="color: #828282;"></i>
+  </div>
+</div>
+
+</ng-template>

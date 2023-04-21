@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('./assets/font/roboto.ttf');
+}
+
+:root{
+    --surface-card:rgb(235, 235, 235);
+    --surface-700:#7c7c7c;
+    --surface-300:rgb(224, 224, 224);
+    --surface-100:rgb(240, 236, 236);
+}

@@ -1,0 +1,110 @@
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width:300px;
+  height:120vh;
+  margin: auto;
+}
+
+.sidebar_logo{
+  margin-top: 13px;;
+  width:80%;
+  height:50px;
+
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.sidebar_menu{
+  margin-top: 25px;;
+  width:fit-content;
+  height:fit-content;
+  border-bottom: 2.5px solid #d8d5d5;
+  color:rgb(9, 12, 33);
+  align-items: center;
+  padding-bottom: 20px;
+}
+.sidebar_account{
+  margin-top: 25px;;
+  width:80%;
+  height:140px;
+}
+.switch_profile{
+  margin-top: 25px;;
+  width:80%;
+  height:85px;
+ 
+}
+
+.switch_image{
+  width:30px;
+}
+
+.main_menu{
+  position: relative;
+  left:-70px;
+  top:14px;
+  width:100px;
+
+
+}
+
+
+.dashboard{
+  width:100%;
+  font-size: 17px;
+  padding:1px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-bottom:5px;
+}
+.dashboard span{
+position: relative;
+top:6px;
+padding-right: 10px;
+}
+
+.dashboard i:hover{
+border-radius: 50%;
+background-color: #f0f0f0;
+color: white;
+}
+
+
+.circle-grayh{
+padding: 8px;
+}
+
+.dashmenu:hover{
+background-color: #c0c0c0;
+}
+.dropdasboard{
+display:block;
+width:fit-content;
+margin-left: 40px;
+margin-bottom:10px;
+}
+.menudash{
+width:120px;
+}
+
+.menudash:hover{
+background-color:  #efe8e8;
+}
+
+.switch_image{
+width:60px;
+height: 60px;
+background-color: rgb(221, 221, 221);
+border-radius: 10px;
+margin-right: 10px;
+}
+
+.switch_profile i:hover{
+cursor: pointer;
+color:black;
+}
